@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #273640;
+}
+.appbar {
+  width: 100%;
+  height: 48px;
+}
+.mainDiv {
+  width: 100%;
+  height: calc(100% - 48px);
+  display: flex;
+  overflow-y: auto;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.leftDiv {
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  margin: 10px;
+}
+
+.root {
+  --body-bg: #273640;
+  --body-bg-lighter: #2b3b46;
+  --body-bg-lighter1: #314350;
+  --body-bg-darker: #23313a;
+  --body-bg-darker1: #111c23;
+  --secondary-bg: #1b262d;
+  --secondary-bg-lighter: #212e37;
+  --secondary-bg1: #1f2b33;
+  --secondary-bg2: #212e36;
+  --secondary-bg3: #212e36;
+  --primary-text-color: #ffffff;
+  --primary-text-color-lighter: #ffffff;
+  --primary-text-color1: #ffffff;
+  --primary-text-color2: #ffffff;
+  --primary-text-color3: #969b9e;
+  --primary-color: #e4f8f3;
+  --buy-color: #;
+  --buy-color-transparent: rgba(1, 167, 129, 0.15);
+  --buy-color-lighter: #01c095;
+  --sell-color: #f05359;
+  --sell-color-transparent: rgba(240, 83, 89, 0.15);
+  --sell-color-lighter: #f26a70;
+  --link-color: #82baf6;
+  --link-color-lighter: #a8cff9;
+  --error-color: #5c3f46;
+  --separator-color: rgba(255, 255, 255, 0.2);
+}
+
+.thinList::-webkit-scrollbar {
+  width: 7px;
+  border: 5px solid transparent;
+  border-radius: 15px;
+}
+
+.thinList::-webkit-scrollbar-thumb {
+  background-color: #b0b0b0;
+  background-clip: padding-box;
+  border: 0.05em solid transparent;
+  border-radius: 15px;
+}
