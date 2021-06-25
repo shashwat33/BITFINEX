@@ -441,9 +441,8 @@ function App(props) {
                               filteredApidata.push(data);
                             }
                           }
-                          
                         });
-                        
+
                         setapidata(filteredApidata);
                       }}
                       value={searchBarValue}
@@ -670,7 +669,6 @@ function App(props) {
                           </span>
                         </div>
                       )}
-                      43
                     </div>
                   </div>
                 </TableContainer>
