@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# STEPS TO FOLLOW
 
 use npm i to install all the dependencies.\
 STEP 1- open this link in your browser(https://cors-anywhere.herokuapp.com/https://api-pub.bitfinex.com/v2/tickers?symbols=ALL)  .\
