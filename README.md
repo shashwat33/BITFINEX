@@ -1,8 +1,8 @@
 # Getting Started with Create React App
 
-use npm i to install all the dependencies
-STEP 1- open this link in your browser(https://cors-anywhere.herokuapp.com/https://api-pub.bitfinex.com/v2/tickers?symbols=ALL)
-STEP 2- click the button(request temporary access to the demo server) for accessing the data 
+use npm i to install all the dependencies.\
+STEP 1- open this link in your browser(https://cors-anywhere.herokuapp.com/https://api-pub.bitfinex.com/v2/tickers?symbols=ALL).\
+STEP 2- click the button(request temporary access to the demo server) for accessing the data .\
 STEP 3- use npm start to run the app in development mode and open(http://localhost:3000)to view it in browser
 
 
